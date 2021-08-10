@@ -2,7 +2,7 @@
 
 >Em desenvolvimento
 
-### Aplicação desenvolvida pra fins avaliativos
+## Aplicação desenvolvida pra fins avaliativos
 
 Esta é uma aplicação feita em laravel que simula o atendimento de um 
 cliente em uma clínica onde ele pode realizar vários procedimentos com
@@ -18,13 +18,13 @@ uma url onde o servidor estará funcionando, exemplo: http://127.0.0.1:8000.
 
 + Ao digitar isso na barra de endereço você terá acesso a "aplicação" e simular os uso sem a necessidade
 de usar o postman ou Insomnia de forma mais simples e amigavel.
-### Tecnologias usadas
+## Tecnologias usadas
 
 + Composer 2.1.5
 + Laravel 8.x
 + MySql 10.4.20
 
-### Utilizando a API
+## Utilizando a API
 
 O foco dessa aplicação é criação de uma API REST, onde seja possível a comunicação, via protocolo HTTP com
 recursos externos como Angular ou React, por exemplo.
@@ -37,7 +37,7 @@ Recursos disponiveis para acesso via API:
 + Especialistas
 + Agenda (resumo do procedimento)
 
-### Métodos
+## Métodos
 
 Requisições para a API devem seguir os seguintes padrões:
 
