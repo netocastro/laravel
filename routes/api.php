@@ -15,12 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});*/
-
 /**
- * Rotas para a api de clientes clientes
+ * API de Rotas para classe Clientes
  */
 
 Route::get('/clientes', [ClientesController::class , 'index']);
@@ -30,11 +26,12 @@ Route::put('/clientes/{id}', [ClientesController::class , 'update']);
 Route::delete('/clientes/{id}', [ClientesController::class , 'destroy']);
 
 /**
- * Rotas para a api de clientes clientes
+ * API de Rotas para classe Agenda
+ * (referente ao resumo da aplicação, ou seja, quando o cliente efetua a compra do serviço)
  */
+
 Route::get('/agenda', [AgendaController::class , 'index']);
 Route::post('/agenda', [AgendaController::class , 'store']);
 Route::get('/agenda/{id}', [AgendaController::class , 'show']);
 Route::put('/agenda/{id}', [AgendaController::class , 'update']);
 Route::delete('/agenda/{id}', [AgendaController::class , 'destroy']);
-

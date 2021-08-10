@@ -14,7 +14,7 @@
         <a href="{{route('view.listaDeProcedimentos')}}">Lista de Procedimentos</a><br>
         <a href="{{route('view.agendarProcedimento')}}">Marcar Procedimento</a><br>
         <a href="{{route('view.procedimentosAgendados')}}">Procedimentos Marcados</a><br>
-    </div>development
+    </div>
 
 </body>
 </html>
