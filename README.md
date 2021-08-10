@@ -18,10 +18,11 @@ uma url onde o servidor estará funcionando, exemplo: http://127.0.0.1:8000.
 
 + Ao digitar isso na barra de endereço você terá acesso a "aplicação" e simular os uso sem a necessidade
 de usar o postman ou Insomnia de forma mais simples e amigavel.
+### Tecnologias usadas
 
-composer 2.1.5
-laravel 8.x
-mysql 10.4.20
+Composer 2.1.5
+Laravel 8.x
+MySql 10.4.20
 
 ### Utilizando a API
 
