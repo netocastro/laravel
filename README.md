@@ -20,9 +20,9 @@ uma url onde o servidor estará funcionando, exemplo: http://127.0.0.1:8000.
 de usar o postman ou Insomnia de forma mais simples e amigavel.
 ### Tecnologias usadas
 
-Composer 2.1.5
-Laravel 8.x
-MySql 10.4.20
++ Composer 2.1.5
++ Laravel 8.x
++ MySql 10.4.20
 
 ### Utilizando a API
 
